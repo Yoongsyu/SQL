@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+SELECT    NAME,
+          DATETIME
+          SEX_UPON_INTAKE
+FROM      ANIMAL_INS
+ORDER BY  ANIMAL_ID DESC
