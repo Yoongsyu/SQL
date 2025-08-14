@@ -1,0 +1,7 @@
+-- 코드를 작성해주세요
+SELECT    A.*
+FROM      (SELECT ID,
+                  LENGTH
+           FROM   FISH_INFO
+           ORDER BY LENGTH DESC, ID ASC) A
+LIMIT 10
